@@ -64,21 +64,4 @@ Deux modes :
   `data/transactions.csv` (séparateur `;`) → prédictions pour toutes les
   lignes, export des résultats.
 
-## Déploiement sur Streamlit Community Cloud
-
-1. Pousser le dépôt sur GitHub (le `.gitignore` exclut `venv/` et les caches).
-2. Sur [share.streamlit.io](https://share.streamlit.io), se connecter avec
-   GitHub, cliquer sur **New app**, choisir le dépôt, la branche `main` et
-   `app.py` comme fichier principal, puis **Deploy**.
-3. Pour des identifiants sensibles (BDD, API), utiliser **App settings →
-   Secrets** (format TOML), jamais de valeurs codées en dur.
-
-## Points d'attention
-
-- Les classes sont déséquilibrées (Normal ≫ Suspect ≫ Fraude) : le modèle
-  utilise `class_weight="balanced"` — privilégier precision/recall/F1 plutôt
-  que l'accuracy seule pour juger la qualité.
-- Aucune donnée client réelle sensible ne doit être poussée sur un dépôt
-  public ; anonymiser ou synthétiser si besoin.
-- Nommer les versions du modèle (`fraud_model_v1.pkl`, etc.) pour tracer les
-  évolutions dans le temps.
+## - Nafissatou Césaltina Ly - Cohorte 2 Master IA
