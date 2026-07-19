@@ -1,4 +1,4 @@
-# Détection de fraude bancaire — Streamlit
+# Application de détection de fraude bancaire avec Streamlit
 
 Application de détection de fraude entraînée sur `data/transactions.csv`
 (5 382 transactions, colonnes : ID Clients, Numero de compte, Identifiant
